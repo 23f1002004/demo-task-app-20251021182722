@@ -1,0 +1,63 @@
+/* Expert Reset & Setup */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #e9ecef; /* Light background */
+    color: #343a40;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 450px;
+    transition: transform 0.3s ease-in-out;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#message {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    min-height: 25px;
+}
+
+#actionButton {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+#actionButton:hover {
+    background-color: #218838;
+    transform: translateY(-1px);
+}
+
+.counter-area {
+    margin-top: 25px;
+    font-size: 1.2em;
+}
+
+#clickCount {
+    font-weight: bold;
+    color: #dc3545;
+}
